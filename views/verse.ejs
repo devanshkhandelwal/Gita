@@ -10,6 +10,7 @@
     <ol>
         <% locals.verse.forEach(function(verse) { %>
             <li><%= verse.text %></li>
+            <p><%= verse.translations[0].description %></p>
         <% }); %>
     </ol>
     <a href="/">Back to chapters</a>
