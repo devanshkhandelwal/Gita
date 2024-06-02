@@ -1,0 +1,33 @@
+# Project Name
+
+Gita API Interface
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- EJS
+- Axios
+
+## Installation
+
+1. Clone the repository.
+2. Install the dependencies using the following command:
+
+   ```shell
+   npm install
+   ```
+
+## Usage
+
+1. Start the server using the following command:
+
+   ```shell
+   nodemon index.js
+   ```
+
+2. Open your browser and navigate to `http://localhost:3000`.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions, please open an issue or submit a pull request.

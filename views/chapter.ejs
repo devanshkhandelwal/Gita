@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gita API</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <h2>Chapter <%= locals.chapter.chapter_number %>: <%= locals.chapter.name %></h2>
+    <p>English: <%= locals.chapter.chapter_summary %></p>
+    <p>Hindi: <%= locals.chapter.chapter_summary_hindi %></p>
+
+    <a href="/chapters/<%= locals.chapter.chapter_number %>/verses">Get all verses</a>
+    <a href="/">Back to chapters</a>
+</body>
+</html>

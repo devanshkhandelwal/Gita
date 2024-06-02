@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bhagwad Gita</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Bhagwad Gita</h1>
+    <% if (locals.chapters) %>
+        <ol>
+            <% locals.chapters.forEach(function(chapter) { %>
+                <li><a href="/chapters/<%= chapter.chapter_number %>"><%= chapter.name %></a></li>
+            <% }); %>
+        </ol>
+</body>
+</html>

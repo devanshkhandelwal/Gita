@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gita API</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <h2>Here are all the verses from this chapter <% locals.verse[1].chapter_number %></h2>
+    <ol>
+        <% locals.verse.forEach(function(verse) { %>
+            <li><%= verse.text %></li>
+        <% }); %>
+    </ol>
+    <a href="/">Back to chapters</a>
+</body>
+</html>
